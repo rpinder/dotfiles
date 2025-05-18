@@ -19,3 +19,6 @@ vim.opt.updatetime = 50
 
 vim.opt.laststatus = 3
 vim.opt.winbar = "%=%m %f "
+
+vim.diagnostic.config({ virtual_text = true })
+
